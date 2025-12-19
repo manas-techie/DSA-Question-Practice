@@ -1,6 +1,7 @@
 package Array_ArrayList.AssigmentArrays;
 
 public class SecondLargestElement {
+//    Time complexity O(n) Space comlexity O(1)
      public static int SecondLargest(int[] arr){
          int Max_Ele = Integer.MIN_VALUE;
          int SecondLarget = Integer.MIN_VALUE;

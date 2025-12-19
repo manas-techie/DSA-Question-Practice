@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DuplicateElements{
-    // This is not optimal is having time complexity of O(n^2logn)
+    // This is not optimal is having time complexity of O(n^2)
     public static ArrayList<Integer> DuplicateEle(int[] arr){
         Arrays.sort(arr); //nlogn
         ArrayList<Integer> result = new ArrayList<>();

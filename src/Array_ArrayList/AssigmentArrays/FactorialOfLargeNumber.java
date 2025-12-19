@@ -1,6 +1,7 @@
 package Array_ArrayList.AssigmentArrays;
 
 public class FactorialOfLargeNumber {
+//    Time Complexity O(n^2) Space Complexity O(n)
     public static void FactorialOfLargeNumber(int num){
         int[] result = new int[500];
         result[0] = 1;

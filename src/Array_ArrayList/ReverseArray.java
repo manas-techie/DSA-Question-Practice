@@ -2,7 +2,7 @@ package Array_ArrayList;
 
 //Time complexity is O(n) and Space Complexity is O(1)
 public class ReverseArray {
-    public static void arrayEleSwap(int[] arr, int i, int j){ //Normal Swap like C not work in java because unlike c here pointer not exis and the element are pass by value not reference means any changes in swap function will discard after the function end.
+    public static void arrayEleSwap(int[] arr, int i, int j){ //Normal Swap like C not work in java because unlike c here pointer not exist and the element are pass by value not reference means any changes in swap function will discard after the function end.
         int temp = arr[i];
         arr[i]=arr[j];
         arr[j]=temp;

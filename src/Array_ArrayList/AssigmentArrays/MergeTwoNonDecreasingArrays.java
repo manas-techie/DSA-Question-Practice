@@ -1,7 +1,7 @@
 package Array_ArrayList.AssigmentArrays;
 
 public class MergeTwoNonDecreasingArrays {
-    // Time Complexity O(n+m)
+    // Time Complexity O(n+m) space complexity O(n+m)
     public static int[] MergetwoArrays(int[] nums1,int[] nums2,int m, int n){
         int i=0,j=0,k=0;
         int[] result = new int[m+n];

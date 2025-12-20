@@ -3,6 +3,7 @@ package Array_ArrayList.AssigmentArrays;
 import java.util.Arrays;
 
 public class UniqueElement {
+//    Leetcode 136
     //Not optimal time complexity O(nlogn) space complexity O(1)
     public static int FindUniqueEle(int[] arr){
         Arrays.sort(arr);
@@ -19,6 +20,7 @@ public class UniqueElement {
     public static int FindUniqueWithXOR(int[] arr){
         int result = 0;
         for(int i=0;i<arr.length;i++){
+        // xor is commutative order does not matter all the duplicate pairs eventually cencel each other out only unque one remain
             result = result ^ arr[i]; //XOR of same number is zero and XOR of Zero and number x equal to the smae number x
         }
         return result;
